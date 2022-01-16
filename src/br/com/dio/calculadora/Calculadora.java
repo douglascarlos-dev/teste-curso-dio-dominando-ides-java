@@ -17,12 +17,12 @@ public class Calculadora {
 		int soma = soma(a,b);
 		int subtracao = subtracao(a,b);
 		int multiplicacao = multiplicacao(a,b);
-		int divisao = divisao(a,b);
+		double divisao = divisao(a,b);
 		
-		System.out.println(soma);
-		System.out.println(subtracao);
-		System.out.println(multiplicacao);
-		System.out.println(divisao);
+		System.out.println("soma " + soma);
+		System.out.println("subtração " + subtracao);
+		System.out.println("multiplicação " + multiplicacao);
+		System.out.println("divisão " + divisao);
 	
 
 	}
